@@ -1,5 +1,6 @@
 body {
   background: #333;
+  overflow: hidden;
 }
 
 div {
@@ -23,4 +24,6 @@ span {
 
 canvas {
   visibility: visible !important;
+  width: 100vw !important;
+  height: auto !important;
 }
